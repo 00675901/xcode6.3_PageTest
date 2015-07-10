@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B090A8C71B12B62B00FBDBC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A8C61B12B62B00FBDBC9 /* main.m */; };
+		B090A8CA1B12B62B00FBDBC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A8C91B12B62B00FBDBC9 /* AppDelegate.m */; };
+		B090A8CD1B12B62B00FBDBC9 /* xogTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B090A8CB1B12B62B00FBDBC9 /* xogTalk.xcdatamodeld */; };
+		B090A8D01B12B62B00FBDBC9 /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A8CF1B12B62B00FBDBC9 /* NoticeViewController.m */; };
+		B090A8D31B12B62B00FBDBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090A8D11B12B62B00FBDBC9 /* Main.storyboard */; };
+		B090A8D51B12B62B00FBDBC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B090A8D41B12B62B00FBDBC9 /* Images.xcassets */; };
+		B090A8D81B12B62B00FBDBC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B090A8D61B12B62B00FBDBC9 /* LaunchScreen.xib */; };
+		B090A8E41B12B62B00FBDBC9 /* xogTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A8E31B12B62B00FBDBC9 /* xogTalkTests.m */; };
+		B090A9271B12D96000FBDBC9 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A9261B12D96000FBDBC9 /* ProjectViewController.m */; };
+		B090A92C1B12DC0900FBDBC9 /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A9291B12DC0900FBDBC9 /* ClientViewController.m */; };
+		B090A92D1B12DC0900FBDBC9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A92B1B12DC0900FBDBC9 /* MineViewController.m */; };
+		B090A9301B12E61A00FBDBC9 /* ProjectInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A92F1B12E61A00FBDBC9 /* ProjectInfoViewController.m */; };
+		B090A9331B12FBE800FBDBC9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A9321B12FBE800FBDBC9 /* LoginViewController.m */; };
+		B090A9361B12FC4800FBDBC9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B090A9351B12FC4800FBDBC9 /* RootViewController.m */; };
+		B0B2EAA71B144FFC00CF2CF7 /* LoginServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2EAA61B144FFC00CF2CF7 /* LoginServerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B090A8DE1B12B62B00FBDBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B090A8B91B12B62B00FBDBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B090A8C01B12B62B00FBDBC9;
+			remoteInfo = xogTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B090A8C11B12B62B00FBDBC9 /* xogTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B090A8C51B12B62B00FBDBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B090A8C61B12B62B00FBDBC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B090A8C81B12B62B00FBDBC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B090A8C91B12B62B00FBDBC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B090A8CC1B12B62B00FBDBC9 /* xogTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xogTalk.xcdatamodel; sourceTree = "<group>"; };
+		B090A8CE1B12B62B00FBDBC9 /* NoticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
+		B090A8CF1B12B62B00FBDBC9 /* NoticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
+		B090A8D21B12B62B00FBDBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B090A8D41B12B62B00FBDBC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B090A8D71B12B62B00FBDBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B090A8DD1B12B62B00FBDBC9 /* xogTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xogTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B090A8E21B12B62B00FBDBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B090A8E31B12B62B00FBDBC9 /* xogTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xogTalkTests.m; sourceTree = "<group>"; };
+		B090A9251B12D8BB00FBDBC9 /* ProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		B090A9261B12D96000FBDBC9 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		B090A9281B12DC0900FBDBC9 /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		B090A9291B12DC0900FBDBC9 /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
+		B090A92A1B12DC0900FBDBC9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B090A92B1B12DC0900FBDBC9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B090A92E1B12E61A00FBDBC9 /* ProjectInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectInfoViewController.h; sourceTree = "<group>"; };
+		B090A92F1B12E61A00FBDBC9 /* ProjectInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectInfoViewController.m; sourceTree = "<group>"; };
+		B090A9311B12FBE800FBDBC9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B090A9321B12FBE800FBDBC9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B090A9341B12FC4800FBDBC9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B090A9351B12FC4800FBDBC9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B0B2EAA51B144FFC00CF2CF7 /* LoginServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginServerViewController.h; sourceTree = "<group>"; };
+		B0B2EAA61B144FFC00CF2CF7 /* LoginServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginServerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B090A8BE1B12B62B00FBDBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090A8DA1B12B62B00FBDBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B090A8B81B12B62B00FBDBC9 = {
+			isa = PBXGroup;
+			children = (
+				B090A8C31B12B62B00FBDBC9 /* xogTalk */,
+				B090A8E01B12B62B00FBDBC9 /* xogTalkTests */,
+				B090A8C21B12B62B00FBDBC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B090A8C21B12B62B00FBDBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B090A8C11B12B62B00FBDBC9 /* xogTalk.app */,
+				B090A8DD1B12B62B00FBDBC9 /* xogTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B090A8C31B12B62B00FBDBC9 /* xogTalk */ = {
+			isa = PBXGroup;
+			children = (
+				B0B2EAA41B144F9B00CF2CF7 /* login */,
+				B090A8C81B12B62B00FBDBC9 /* AppDelegate.h */,
+				B090A8C91B12B62B00FBDBC9 /* AppDelegate.m */,
+				B090A92A1B12DC0900FBDBC9 /* MineViewController.h */,
+				B090A92B1B12DC0900FBDBC9 /* MineViewController.m */,
+				B090A9281B12DC0900FBDBC9 /* ClientViewController.h */,
+				B090A9291B12DC0900FBDBC9 /* ClientViewController.m */,
+				B090A9251B12D8BB00FBDBC9 /* ProjectViewController.h */,
+				B090A9261B12D96000FBDBC9 /* ProjectViewController.m */,
+				B090A92E1B12E61A00FBDBC9 /* ProjectInfoViewController.h */,
+				B090A92F1B12E61A00FBDBC9 /* ProjectInfoViewController.m */,
+				B090A8CE1B12B62B00FBDBC9 /* NoticeViewController.h */,
+				B090A8CF1B12B62B00FBDBC9 /* NoticeViewController.m */,
+				B090A9341B12FC4800FBDBC9 /* RootViewController.h */,
+				B090A9351B12FC4800FBDBC9 /* RootViewController.m */,
+				B090A8D11B12B62B00FBDBC9 /* Main.storyboard */,
+				B090A8D41B12B62B00FBDBC9 /* Images.xcassets */,
+				B090A8D61B12B62B00FBDBC9 /* LaunchScreen.xib */,
+				B090A8CB1B12B62B00FBDBC9 /* xogTalk.xcdatamodeld */,
+				B090A8C41B12B62B00FBDBC9 /* Supporting Files */,
+			);
+			path = xogTalk;
+			sourceTree = "<group>";
+		};
+		B090A8C41B12B62B00FBDBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B090A8C51B12B62B00FBDBC9 /* Info.plist */,
+				B090A8C61B12B62B00FBDBC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B090A8E01B12B62B00FBDBC9 /* xogTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B090A8E31B12B62B00FBDBC9 /* xogTalkTests.m */,
+				B090A8E11B12B62B00FBDBC9 /* Supporting Files */,
+			);
+			path = xogTalkTests;
+			sourceTree = "<group>";
+		};
+		B090A8E11B12B62B00FBDBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B090A8E21B12B62B00FBDBC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0B2EAA41B144F9B00CF2CF7 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B090A9311B12FBE800FBDBC9 /* LoginViewController.h */,
+				B090A9321B12FBE800FBDBC9 /* LoginViewController.m */,
+				B0B2EAA51B144FFC00CF2CF7 /* LoginServerViewController.h */,
+				B0B2EAA61B144FFC00CF2CF7 /* LoginServerViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B090A8C01B12B62B00FBDBC9 /* xogTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B090A8E71B12B62B00FBDBC9 /* Build configuration list for PBXNativeTarget "xogTalk" */;
+			buildPhases = (
+				B090A8BD1B12B62B00FBDBC9 /* Sources */,
+				B090A8BE1B12B62B00FBDBC9 /* Frameworks */,
+				B090A8BF1B12B62B00FBDBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xogTalk;
+			productName = xogTalk;
+			productReference = B090A8C11B12B62B00FBDBC9 /* xogTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B090A8DC1B12B62B00FBDBC9 /* xogTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B090A8EA1B12B62B00FBDBC9 /* Build configuration list for PBXNativeTarget "xogTalkTests" */;
+			buildPhases = (
+				B090A8D91B12B62B00FBDBC9 /* Sources */,
+				B090A8DA1B12B62B00FBDBC9 /* Frameworks */,
+				B090A8DB1B12B62B00FBDBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B090A8DF1B12B62B00FBDBC9 /* PBXTargetDependency */,
+			);
+			name = xogTalkTests;
+			productName = xogTalkTests;
+			productReference = B090A8DD1B12B62B00FBDBC9 /* xogTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B090A8B91B12B62B00FBDBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = othink;
+				TargetAttributes = {
+					B090A8C01B12B62B00FBDBC9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B090A8DC1B12B62B00FBDBC9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B090A8C01B12B62B00FBDBC9;
+					};
+				};
+			};
+			buildConfigurationList = B090A8BC1B12B62B00FBDBC9 /* Build configuration list for PBXProject "xogTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B090A8B81B12B62B00FBDBC9;
+			productRefGroup = B090A8C21B12B62B00FBDBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B090A8C01B12B62B00FBDBC9 /* xogTalk */,
+				B090A8DC1B12B62B00FBDBC9 /* xogTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B090A8BF1B12B62B00FBDBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090A8D31B12B62B00FBDBC9 /* Main.storyboard in Resources */,
+				B090A8D81B12B62B00FBDBC9 /* LaunchScreen.xib in Resources */,
+				B090A8D51B12B62B00FBDBC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090A8DB1B12B62B00FBDBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B090A8BD1B12B62B00FBDBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B2EAA71B144FFC00CF2CF7 /* LoginServerViewController.m in Sources */,
+				B090A9301B12E61A00FBDBC9 /* ProjectInfoViewController.m in Sources */,
+				B090A8CD1B12B62B00FBDBC9 /* xogTalk.xcdatamodeld in Sources */,
+				B090A92D1B12DC0900FBDBC9 /* MineViewController.m in Sources */,
+				B090A8CA1B12B62B00FBDBC9 /* AppDelegate.m in Sources */,
+				B090A9361B12FC4800FBDBC9 /* RootViewController.m in Sources */,
+				B090A8D01B12B62B00FBDBC9 /* NoticeViewController.m in Sources */,
+				B090A9331B12FBE800FBDBC9 /* LoginViewController.m in Sources */,
+				B090A8C71B12B62B00FBDBC9 /* main.m in Sources */,
+				B090A9271B12D96000FBDBC9 /* ProjectViewController.m in Sources */,
+				B090A92C1B12DC0900FBDBC9 /* ClientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B090A8D91B12B62B00FBDBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B090A8E41B12B62B00FBDBC9 /* xogTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B090A8DF1B12B62B00FBDBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B090A8C01B12B62B00FBDBC9 /* xogTalk */;
+			targetProxy = B090A8DE1B12B62B00FBDBC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B090A8D11B12B62B00FBDBC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B090A8D21B12B62B00FBDBC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B090A8D61B12B62B00FBDBC9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B090A8D71B12B62B00FBDBC9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B090A8E51B12B62B00FBDBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B090A8E61B12B62B00FBDBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B090A8E81B12B62B00FBDBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Bo (NCL64T6CTJ)";
+				INFOPLIST_FILE = xogTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d5a29de-6ffc-4baf-a0ae-957dbcda3de4";
+			};
+			name = Debug;
+		};
+		B090A8E91B12B62B00FBDBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Bo (NCL64T6CTJ)";
+				INFOPLIST_FILE = xogTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d5a29de-6ffc-4baf-a0ae-957dbcda3de4";
+			};
+			name = Release;
+		};
+		B090A8EB1B12B62B00FBDBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xogTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xogTalk.app/xogTalk";
+			};
+			name = Debug;
+		};
+		B090A8EC1B12B62B00FBDBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xogTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xogTalk.app/xogTalk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B090A8BC1B12B62B00FBDBC9 /* Build configuration list for PBXProject "xogTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B090A8E51B12B62B00FBDBC9 /* Debug */,
+				B090A8E61B12B62B00FBDBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B090A8E71B12B62B00FBDBC9 /* Build configuration list for PBXNativeTarget "xogTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B090A8E81B12B62B00FBDBC9 /* Debug */,
+				B090A8E91B12B62B00FBDBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B090A8EA1B12B62B00FBDBC9 /* Build configuration list for PBXNativeTarget "xogTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B090A8EB1B12B62B00FBDBC9 /* Debug */,
+				B090A8EC1B12B62B00FBDBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B090A8CB1B12B62B00FBDBC9 /* xogTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B090A8CC1B12B62B00FBDBC9 /* xogTalk.xcdatamodel */,
+			);
+			currentVersion = B090A8CC1B12B62B00FBDBC9 /* xogTalk.xcdatamodel */;
+			path = xogTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B090A8B91B12B62B00FBDBC9 /* Project object */;
+}
